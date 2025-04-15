@@ -1,0 +1,64 @@
+.label-voting {
+    font-weight: normal;
+    background-color: yellowgreen;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.label-in-progress {
+    font-weight: bold;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.label-abandoned {
+    font-weight: bold;
+    background-color: lightslategray;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.label-finished {
+    font-weight: bold;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.label-paused {
+    font-weight: bold;
+    background-color: lightslategray;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}

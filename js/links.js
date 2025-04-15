@@ -16,5 +16,5 @@ function goToNotices(){
 }
 
 function goToGitHub(){
-    window.location.href='https://github.com/leipishu/ServerWebsite2';
+    window.location.href='https://github.com/leipishu/ServerWeb';
 }

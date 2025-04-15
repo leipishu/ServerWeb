@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Astra 服务器公告</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/quality.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/switch.css">
+    <link rel="stylesheet" href="css/nav-bar.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<nav id="navbar">
+    <a href="index.html" class="menu__link">
+        <img src="img/SVG/Home.svg" alt="首页图标" class="icon"> 首页
+    </a>
+    <div class="right-items">
+        <label class="ui-switch">
+            <input type="checkbox" class="theme-switch__checkbox">
+            <div class="slider">
+                <div class="circle"></div>
+            </div>
+        </label>
+        <div class="github-button-container">
+            <button class="github-button flex-center" onclick=goToGitHub()>
+                <svg
+                        stroke="#fff"
+                        fill="#fff"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        class="btn-svg"
+                        width="22px"
+                        viewBox="0 0 20 20"
+                >
+                    <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+                    <g
+                            stroke-linejoin="round"
+                            stroke-linecap="round"
+                            id="SVGRepo_tracerCarrier"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <title>github [#fff142]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g
+                                fill-rule="evenodd"
+                                fill="none"
+                                stroke-width="1"
+                                stroke="none"
+                                id="Page-1"
+                        >
+                            <g
+                                    fill="#fff"
+                                    transform="translate(-140.000000, -7559.000000)"
+                                    id="Dribbble-Light-Preview"
+                            >
+                                <g transform="translate(56.000000, 160.000000)" id="icons">
+                                    <path
+                                            id="github-[#fff142]"
+                                            d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                                    ></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </button>
+        </div>
+    </div>
+</nav>
+<header id="header">
+    <div class="logo">
+        <img src="img/logo.png" alt="服务器图标">
+    </div>
+    <h1>Ad Astra 服务器公告</h1>
+    <div class="waves">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+             viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave"
+                      d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+        </svg>
+    </div>
+</header>
+
+<div class="content-wrapper">
+    <div class="container">
+        <nav id="sidebar">
+            <button id="toggle-sidebar">
+                <img src="img/SVG/side_toggle.svg" alt="Toggle" class="toggle-icon">
+            </button>
+            <ul class="main-menu">
+                <li>
+                    <a href="#voting" class="active">
+                        <span class="number">1</span>
+                        <span class="text">投票</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#latest-notices">
+                        <span class="number">2</span>
+                        <span class="text">最新公告</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#past-notices">
+                        <span class="number">3</span>
+                        <span class="text">往期公告</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#back">
+                        <span class="number">4</span>
+                        <span class="text">返回主页</span>
+                    </a>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="voting" class="fade-in">
+                <div class="card">
+                    <h2>一、投票</h2>
+                    <p>参与服务器的投票活动，为服务器的发展贡献你的意见！</p>
+                    <p><strong>当前投票活动：</strong></p>
+                    <ul>
+                        <li>
+                            <p>模组添加投票-1</p>
+                            <p>提出者：StormMessager</p>
+                            <p>投票内容：是否添加如锦上添花等附魔类的模组？</p>
+                            <p>提出原因：不然难得素要挖死</p>
+                            <p>投票截止时间：2025-5-2 23:59:59</p>
+                            <p>提出奖励：若该项模组被通过，StormMessager将会获得<span class="quality-very-rare">[mod 贡献者]</span>头衔，品质<span class="quality-very-rare">超稀有</span></p>
+                        </li>
+                        <li>
+                            <p>模组添加投票-2</p>
+                            <p>提出者：StormMessager</p>
+                            <p>投票内容：是否添加boss类的模组？</p>
+                            <p>提出原因：无</p>
+                            <p>投票截止时间：2025-5-2 23:59:59</p>
+                            <p>提出奖励：若该项模组被通过，StormMessager将会获得<span class="quality-very-rare">[mod 贡献者]</span>头衔，品质<span class="quality-very-rare">超稀有</span></p>
+                        </li>
+                        <li>
+                            <p>模组添加投票-3</p>
+                            <p>提出者：Ryan_Fengrh</p>
+                            <p>投票内容：是否添加“灵魂绑定”附魔模组？</p>
+                            <p>提出原因：因为就算有死亡不掉落物品栏，穿在身上的装备，尤其是突然掉进岩浆，很难快速进行反应，并丢进死亡不掉落物品栏</p>
+                            <p>投票截止时间：2025-5-2 23:59:59</p>
+                            <p>提出奖励：若该项模组被通过，Ryan_Fengrh将会获得<span class="quality-very-rare">[mod 贡献者]</span>头衔，品质<span class="quality-very-rare">超稀有</span></p>
+                        </li>
+                </ul>
+                </div>
+            </section>
+
+            <section id="latest-notices" class="fade-in">
+                <div class="card">
+                    <h2>二、最新公告</h2>
+                    <ul class="notice-list">
+                        <li>
+                            <h3>4.11 服务器模组通知</h3>
+                            <p><strong>发布时间：2025-04-11</strong></p>
+                            <p>服务器将于2025年4月11日添加Styled Nicknames模组，该模组可以自定义玩家昵称的颜色、样式和字体。</p>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="past-notices" class="fade-in">
+                <div class="card">
+                    <h2>三、往期公告</h2>
+                    <ul class="notice-list">
+                        <li>
+                            <h3>暂无往期公告</h3>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="back" class="fade-in">
+                <div class="card">
+                    <h2>四、返回</h2>
+                    <button class="link-button" onclick=goToHomePage()>
+                        <span>返回主页</span>
+                        <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 74 74"
+                                height="34"
+                                width="34"
+                        >
+                            <circle stroke-width="3" stroke="white" r="35.5" cy="37" cx="37"></circle>
+                            <path
+                                    fill="white"
+                                    d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+                            ></path>
+                        </svg>
+                    </button>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <footer>
+        <p>服主：leipishu | 日期：2025.4.6</p>
+        <p>版权所有 © 2025 leipishu | play.leipishu.top</p>
+    </footer>
+</div>
+
+<script src="js/script.js"></script>
+<script src="js/links.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+.quality-normal {
+    font-weight: normal;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.quality-rare {
+    font-weight: normal;
+    background-color: #55FFFF;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.quality-very-rare {
+    font-weight: bold;
+    background-color: #5555ff;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.quality-epic {
+    font-weight: bold;
+    background-color: #FFD700;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.quality-legend {
+    font-weight: bold;
+    background-color: #8A2BE2;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.quality-top {
+    font-weight: bold;
+    background: linear-gradient(
+            to right,
+            #ff5555,  /* 降低饱和度的红色 */
+            #ffaa55,  /* 降低饱和度的橙色 */
+            #fffa55,  /* 降低饱和度的黄色 */
+            #aaff55,  /* 降低饱和度的绿色 */
+            #8888ff,  /* 降低饱和度的蓝色 */
+            #8844cc   /* 降低饱和度的紫色 */
+    );
+    color: black; /* 文本颜色为白色 */
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.diamond {
+    font-weight: bold;
+    color: aqua;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start; /* 确保内容从左侧开始对齐 */
+    position: relative; /* 为了定位图标 */
+}
+
+.diamond::before {
+    content: '';
+    background-image: url('/img/items/diamond.webp'); /* 添加图标 */
+    background-size: 20px 20px; /* 设置图标大小 */
+    background-repeat: no-repeat;
+    background-position: center left; /* 图标位置 */
+    width: 20px; /* 图标的宽度 */
+    height: 20px; /* 图标的高度 */
+    margin-right: 4px; /* 图标与文本之间的间距 */
+}

@@ -1,3 +1,16 @@
+.label-waiting {
+    font-weight: normal;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
 .label-voting {
     font-weight: normal;
     background-color: yellowgreen;

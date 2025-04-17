@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ad Astra 服务器公告</title>
+    <title>Ad Astra 服务器备案</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/quality.css">
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/switch.css">
     <link rel="stylesheet" href="css/nav-bar.css">
     <link rel="stylesheet" href="css/labels.css">
+    <link rel="stylesheet" href="css/table.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -18,8 +19,8 @@
         <a href="index.html" class="menu__link">
             <img src="img/SVG/Home.svg" alt="首页图标" class="icon"> 首页
         </a>
-        <a href="records.html" class="menu__link">
-            <img src="img/SVG/Records.svg" alt="备案图标" class="icon"> 备案
+        <a href="notices.html" class="menu__link">
+            <img src="img/SVG/Notices.svg" alt="首页图标" class="icon"> 公告
         </a>
     </div>
     <div class="right-items">
@@ -81,7 +82,7 @@
     <div class="logo">
         <img src="img/logo.png" alt="服务器图标">
     </div>
-    <h1>Ad Astra 服务器公告</h1>
+    <h1>Ad Astra 服务器备案</h1>
     <div class="waves">
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
              viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -107,127 +108,176 @@
             </button>
             <ul class="main-menu">
                 <li>
-                    <a href="#voting" class="active">
+                    <a href="#items" class="active">
                         <span class="number">1</span>
-                        <span class="text">投票</span>
+                        <span class="text">物品</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#latest-notices">
+                    <a href="#buildings">
                         <span class="number">2</span>
-                        <span class="text">最新公告</span>
+                        <span class="text">房屋</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#past-notices">
+                    <a href="#borrowing">
                         <span class="number">3</span>
-                        <span class="text">往期公告</span>
+                        <span class="text">租借</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#punishment">
+                        <span class="number">4</span>
+                        <span class="text">处罚记录</span>
                     </a>
                 </li>
                 <li>
                     <a href="#back">
-                        <span class="number">4</span>
+                        <span class="number">5</span>
                         <span class="text">返回主页</span>
                     </a>
             </ul>
         </nav>
 
         <main>
-            <section id="voting" class="fade-in">
+            <section id="items" class="fade-in">
                 <div class="card">
-                    <h2>一、投票</h2>
-                    <p>参与服务器的投票活动，为服务器的发展贡献你的意见！</p>
-                    <p><strong>投票守则：</strong></p>
+                    <h2>一、物品</h2>
+                    <p>在此记录玩家的重要物品，包括但不限于：</p>
                     <ul>
-                        <li>投票活动将在所有玩家在线时进行</li>
-                        <li>除被禁言的玩家和提出投票的玩家将无法参与投票，其他玩家均可参与投票</li>
-                        <li>投票活动的通过将按照少数服从多数原则进行，所有投票玩家都持有一票</li>
-                        <li>如果出现平票，由服主最终裁决</li>
-                        <li>投票活动的结果将在公告栏发布</li>
-                        <li>在微信私信或微信群中联系服主以提出投票并准确描述原因和其他信息（如模组名等）</li>
-                        <li>模组投票若通过后2天仍未提供准确模组名称将被视为提出者放弃投票，需重新提出</li>
+                        <li>及其重要矿石（叵得素等）</li>
+                        <li>火箭</li>
+                        <li>重要附魔书</li>
                     </ul>
-                    <p><strong>当前投票活动：</strong></p>
-                    <ul>
-                        <li>
-                            <p id="vote-#3">模组添加投票 #3  <span class="label-paused">暂停</span></p>
-                            <p>提出者：StormMessager</p>
-                            <p>投票内容：是否添加boss类的模组？</p>
-                            <p>提出原因：无</p>
-                            <p>投票截止时间：2025-5-2 23:59:59</p>
-                            <p>提出奖励：若该项模组被通过，StormMessager将会获得<span class="quality-very-rare">[mod 贡献者]</span>头衔，品质<span class="quality-very-rare">超稀有</span></p>
-                        </li>
-                        <li>
-                            <p id="vote-#4">模组添加投票 #4  <span class="label-waiting">待投票</span></p>
-                            <p>提出者：Ryan_Fengrh</p>
-                            <p>投票内容：是否添加“连锁采集”附魔模组？</p>
-                            <p>提出原因：提高挖矿效率</p>
-                            <p>投票截止时间：2025-5-2 23:59:59</p>
-                            <p>提出奖励：若该项模组被通过，Ryan_Fengrh将会获得<span class="quality-very-rare">[mod 贡献者]</span>头衔，品质<span class="quality-very-rare">超稀有</span></p>
-                        </li>
-                </ul>
+                    <p>被登记的物品如转让给其他玩家需要报备以更新备案</p>
+                    <p><strong>当前各玩家记录的物品如下：</strong></p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>玩家</th>
+                                <th>物品名称</th>
+                                <th>物品数量</th>
+                                <th>物品状态</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>leipishu</td>
+                                <td>/</td>
+                                <td>/</td>
+                                <td>/</td>
+                            </tr>
+                            <tr>
+                                <td>StormMessager</td>
+                                <td>叵得素</td>
+                                <td>1</td>
+                                <td>正常</td>
+                            </tr>
+                            <tr>
+                                <td>Ryan_Fengrh</td>
+                                <td>一级火箭</td>
+                                <td>1</td>
+                                <td>失窃</td>
+                            </tr>
+                            <tr>
+                                <td>ClassyMusic5443</td>
+                                <td>/</td>
+                                <td>/</td>
+                                <td>/</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </section>
 
-            <section id="latest-notices" class="fade-in">
+            <section id="buildings" class="fade-in">
                 <div class="card">
-                    <h2>二、最新公告</h2>
-                    <ul class="notice-list">
-                        <li>
-                            <h3>4.15 服务器模组通知</h3>
-                            <p><strong>发布时间：2025-04-15</strong></p>
-                            <p>服务器将于2025年4月15日添加X-Enchantment模组和X-PlayerInfo模组(<a href="#vote-#1">#1</a>)，该模组添加了诸多其他附魔和玩家信息显示</p>
-                        </li>
-                        <li>
-                            <h3>4.16 服务器模组通知</h3>
-                            <p><strong>发布时间：2025-04-16</strong></p>
-                            <p>服务器将于2025年4月16日添加灵魂绑定(Soul Bound Enchantment)模组(<a href="#vote-#2">#2</a>)，该模组添加了灵魂绑定附魔</p>
-                        </li>
+                    <h2>二、建筑</h2>
+                    <p>在此记录玩家的房屋和建筑，包括但不限于：</p>
+                    <ul>
+                        <li>私人住宅</li>
+                        <li>矿洞等设施</li>
+                        <li>重要建筑物</li>
+                    </ul>
+                    <p>以下内容不可等登记为房屋</p>
+                    <ul>
+                        <li>整个村庄</li>
+                        <li>未经改造的遗迹</li>
+                    </ul>
+                    <p>被登记的房屋如放弃转让给其他玩家需要报备以更新备案</p>
+                    <p><strong>当前各玩家记录的房屋如下：</strong></p>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>玩家</th>
+                            <th>房屋名称</th>
+                            <th>房屋位置</th>
+                            <th>房屋状态</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>leipishu</td>
+                            <td>村庄小屋及自建地下室</td>
+                            <td>村庄1</td>
+                            <td>正常</td>
+                        </tr>
+                        <tr>
+                            <td>StormMessager</td>
+                            <td>山洞及其下方矿道</td>
+                            <td>村庄群1山脉中</td>
+                            <td>正常</td>
+                        </tr>
+                        <tr>
+                            <td>Ryan_Fengrh</td>
+                            <td>? ? ?</td>
+                            <td>? ? ?</td>
+                            <td>? ? ?</td>
+                        </tr>
+                        <tr>
+                            <td>ClassyMusic5443</td>
+                            <td>? ? ?</td>
+                            <td>? ? ?</td>
+                            <td>? ? ?</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="borrowing" class="fade-in">
+                <div class="card">
+                    <h2>三、租借</h2>
+                    <p>当前租借情况如下：</p>
+                    <ul>
+                        <li>无</li>
                     </ul>
                 </div>
             </section>
 
-            <section id="past-notices" class="fade-in">
+            <section id="punishment" class="fade-in">
                 <div class="card">
-                    <h2>三、往期公告</h2>
-                    <ul class="notice-list">
-                        <li><p><strong>往期投票活动：</strong></p>
-                            <ul>
-                                <li>
-                                    <p id="vote-#1">模组添加投票 #1  <span class="label-finished">完成</span></p>
-                                    <p>提出者：StormMessager</p>
-                                    <p>投票内容：是否添加如锦上添花等附魔类的模组？</p>
-                                    <p>提出原因：不然难得素要挖死</p>
-                                    <p>投票截止时间：2025-5-2 23:59:59</p>
-                                    <p>投票通过时间：2025-4-15 18:00:00</p>
-                                    <p>提出奖励：若该项模组被通过，StormMessager将会获得<span class="quality-very-rare">[mod 贡献者]</span>头衔，品质<span class="quality-very-rare">超稀有</span></p>
-                                </li>
-                                <li>
-                                    <p id="vote-#2">模组添加投票 #2  <span class="label-finished">完成</span></p>
-                                    <p>提出者：Ryan_Fengrh</p>
-                                    <p>投票内容：是否添加“灵魂绑定”附魔模组？</p>
-                                    <p>提出原因：因为就算有死亡不掉落物品栏，穿在身上的装备，尤其是突然掉进岩浆，很难快速进行反应，并丢进死亡不掉落物品栏</p>
-                                    <p>投票截止时间：2025-5-2 23:59:59</p>
-                                    <p>投票通过时间：2025-4-15 18:00:00</p>
-                                    <p>提出奖励：若该项模组被通过，Ryan_Fengrh将会获得<span class="quality-very-rare">[mod 贡献者]</span>头衔，品质<span class="quality-very-rare">超稀有</span></p>
-                                </li>
-                            </ul>
+                    <h2>四、处罚记录</h2>
+                    <p><strong>处理中的处罚</strong></p>
+                    <ul>
+                        <li>处罚-#1
+                            <p>事件：ClassyMusic5443偷取Ryan_Fengrh的火箭并遗失火箭在太空。</p>
+                            <p>时间：2025-4-16</p>
+                            <p>处理结果：<span class="label-waiting">待处理</span></p>
+                            <p>处理人：leipishu</p>
+                            <p>相关条约：<a href="index.html#rule-6">3.6 财产</a></p>
                         </li>
-                        <li><p><strong>往期公告：</strong></p>
-                            <ul>
-                                <li>
-                                    <h3>4.11 服务器模组通知</h3>
-                                    <p><strong>发布时间：2025-04-11</strong></p>
-                                    <p>服务器将于2025年4月11日添加Styled Nicknames模组，该模组可以自定义玩家昵称的颜色、样式和字体。</p>
-                                </li>
-                            </ul>
+                    </ul>
+                    <p><strong>已处理的处罚</strong></p>
+                    <ul>
+                        <li>无</li>
                     </ul>
                 </div>
             </section>
 
             <section id="back" class="fade-in">
                 <div class="card">
-                    <h2>四、返回</h2>
+                    <h2>五、返回</h2>
                     <button class="link-button" onclick=goToHomePage()>
                         <span>返回主页</span>
                         <svg

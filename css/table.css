@@ -1,0 +1,53 @@
+/* 表格容器的样式 */
+.table-container {
+    margin-left: 25px;
+    margin-right: 25px;
+    overflow-x: auto; /* 确保在内容超出容器宽度时可以水平滚动 */
+}
+
+/* 表格的样式 */
+table {
+    width: 100%;
+    max-width: 800px; /* 设置最大宽度 */
+    border-collapse: collapse; /* 使用 separate 确保边框不会合并 */
+    border-spacing: 0; /* 设置边距为0，确保没有边框 */
+    border-radius: 8px; /* 添加圆角 */
+    overflow: hidden; /* 确保圆角效果正确显示 */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* 可选：添加阴影效果 */
+}
+
+/* 表格单元格的通用样式 */
+table th, table td {
+    border: none;
+    padding: 12px 15px;
+    text-align: left; /* 确保文本向左对齐 */
+    color: #333;
+    background-color: #f8f9fa; /* 默认背景色 */
+    font-size: 14.5px; /* 设置文本大小 */
+}
+
+/* 表头的样式 */
+table th {
+    border:none;
+    background-color: #007BFF; /* 设置表头背景色 */
+    color: white; /* 设置表头文字颜色为白色 */
+    font-size: 16.5px; /* 稍微放大表头文本 */
+    font-weight: bold;
+}
+
+/* 第一个侧边栏单元格的样式 */
+table td:first-child, table th:first-child {
+    font-weight: bold;
+    border: none;
+    background-color: #007BFF; /* 设置侧边栏背景色 */
+    color: white; /* 设置侧边栏文字颜色为白色 */
+    font-size: 16.5px; /* 稍微放大第一个侧边栏文本 */
+}
+
+table tr:hover td {
+    background-color: #e9ecef; /* 悬停背景色 */
+}
+
+table tr:hover td:first-child {
+    background-color: #026ce0; /* 悬停背景色 */
+}

@@ -17,6 +17,13 @@
 }
 
 #navbar .right-items {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#navbar .left-items {
+    gap: 15px;
     display: flex;
     align-items: center;
 }

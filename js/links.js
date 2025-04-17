@@ -15,6 +15,9 @@ function goToNotices(){
     window.location.href='notices.html';
 }
 
+function goToRecords(){
+    window.location.href='records.html';
+}
 function goToGitHub(){
     window.location.href='https://github.com/leipishu/ServerWeb';
 }

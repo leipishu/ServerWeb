@@ -221,6 +221,14 @@ header .logo img {
     transition-delay: 0.5s;
 }
 
+.submenu-item:nth-child(6) {
+    transition-delay: 0.6s;
+}
+
+.submenu-item:nth-child(7) {
+    transition-delay: 0.7s;
+}
+
 #sidebar.collapsed .submenu {
     display: none;
 }

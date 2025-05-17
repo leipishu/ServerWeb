@@ -12,6 +12,14 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
+<div id="warning-modal">
+    <div class="modal-content">
+        <h3>警告</h3>
+        <p>本服务器已暂停运营，请前往1.20.1主服务器。</p>
+        <button class="red-btn" onclick="goToNewWebsite()">前往1.20.1网站</button>
+        <button class="white-btn" onclick="closeWarning()">继续浏览该网站</button>
+    </div>
+</div>
 <nav id="navbar">
     <div class="left-items">
         <a href="notices.html" class="menu__link">
@@ -558,5 +566,6 @@
 
 <script src="js/script.js"></script>
 <script src="js/links.js"></script>
+<script src="js/warnings.js"></script>
 </body>
 </html>
